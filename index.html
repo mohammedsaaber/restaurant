@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="with = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title> 
+
+</head>
+
+<body class="body-class">
+
+
+    <!------------------------------------------------------- Header ---------------------------------------------------------->
+
+    <header class="header-container"> 
+
+        <div class="menuBar">
+
+            <div class="tasty"><a  href="#">Tasty</a></div>
+            <i onclick="openMenu()" class="fas fa-bars bar"></i>
+        </div>
+
+        
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Contact">Contact us</a></li>
+                <li><i  onclick="darkMode()" class="fas fa-moon dark-mood-icon"></i></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!------------------------------------------------------- Home ---------------------------------------------------------->
+
+    <a class="up-icon" href="#"><i class="fas fa-chevron-up"></i></a>
+
+    <div id="Home" class="Home-container reveal">
+
+        <div class="Home-left-side">
+            <h1>Tasty food</h1>
+            <h4>Try the best food of<br>the week.</h4>
+            <a class="View-menu-btn" href="#Menu">View Menu</a>
+        </div>
+
+        <div class="Home-right-side">
+            <img src="images/home.png" class="home-image">
+        </div>
+
+    </div>
+
+    <!------------------------------------------------------- About ---------------------------------------------------------->
+
+    <div id="About" class="About-container reveal">
+
+        <div class="About-left-side">
+            <img class="about-image" src="images/about.jpg">
+        </div>
+
+        <div class="About-right-side">
+            <h6>About us</h6>
+            <h1>We cook the best<br>tasty food</h1>
+            <p>We cook the best food in the entire city, with<br>excellent customer service, the best meals and at<br>the best price, visit us.</p>
+            <button class="about-btn">Explore history</button>
+        </div>
+
+    </div>
+
+    <!---------------------------------------------- Services ------------------------------------------------------------>
+
+    <div id="Services" class="Services-container reveal">
+
+        <div class="service-text">
+            <h6>Offering</h6>
+            <h1>Our amazing services</h1>
+        </div>
+
+        <div class="services">
+
+            <div class="service-left serv">
+                <img class="dish" src="images/dish.svg" >
+                <h2>Excellent food</h2>
+                <p>We offer our clients excellent<br>quality services for many years,<br>with the best and delicious food<br>in the city</p>
+            </div>
+
+            <div class="service-mid serv">
+                <img class="pizza" src="images/pizza.svg">
+                <h2>Fast food</h2>
+                <p>We offer our clients excellent<br>quality services for many years,<br>with the best and delicious food<br>in the city</p>
+            </div>
+
+            <div class="service-right serv">
+                <img class="truck" src="images/truck.svg">
+                <h2>Delivery</h2>
+                <p>We offer our clients excellent<br>quality services for many years,<br>with the best and delicious food<br>in the city</p>
+
+            </div>
+
+        </div>
+
+        
+    </div>
+
+    <!----------------------------------------- Menu ------------------------------------------------->
+
+    <div class="Menu-container reveal" id="Menu">
+        <div class="Menu-text">
+
+            <p>Special</p>
+            <h1>Menu of the week</h1>
+
+        </div>
+
+        <div class="our-menu">
+            <div class="left-menu menu-dish">
+                <img src="images/plate1.png" width="150px">
+                <h1>Barbecue salad</h1>
+                <p>Delicious dish</p>
+                <h6>$15.65</h6>
+                <i class="fas fa-shopping-cart menu-icon"></i>
+            </div>
+            <div class="mid-menu menu-dish">
+                <img src="images/plate2.png" width="150px">
+                <h1>Salad with fish</h1>
+                <p>Delicious dish</p>
+                <h6>$25</h6>
+                <i class="fas fa-shopping-cart menu-icon"></i>
+            </div>
+            <div class="right-menu menu-dish"> 
+                <img src="images/plate3.png" width="150px">
+                <h1>Spanish salad</h1>
+                <p>Delicious dish</p>
+                <h6>$10.99</h6>
+                <i class="fas fa-shopping-cart menu-icon"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------------------- App ----------------------------------------------------->
+
+    <div class="app reveal">
+
+        <div class="app-left">
+            <img src="images/movil-app.png" class="mobile-app">
+        </div>
+
+        <div class="app-right">
+
+            <h6>App</h6>
+            <h1>App is available</h1>
+            <p>Find our application and download it, you can make<br>reservations, food orders, see your deliveries on the<br>way and much more.</p>
+
+            <div class="app-images">
+
+                <img src="images/app1.png" class="app-img">
+                <img src="images/app2.png" class="app-img">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!------------------------------------------------------- contact -------------------------------------------------------->
+
+    <div class="contact-container reveal" id="Contact">
+
+        <div class="contact-top">
+
+            <div class="top-left">
+
+                <h6>Let's talk</h6>
+                <h1>Contact us</h1>
+                <p>If you want to reserve a table in our restaurant, contact us and we will<br>attend you quickly, with our 24/7 chat service.</p>
+            
+            </div>
+            <div class="top-right">
+                <button class="contact-btn">Contact us now</button>
+            </div>
+
+
+        </div>
+
+        <div class="contact-bottom">
+
+            <div class="side1">
+                <h2>Tasty Food</h2>
+                <h6>Restaurant</h6>
+                <div class="contact-icons">
+                    <i class="fab fa-facebook-f cont-icon"></i>
+                    <i class="fab fa-instagram cont-icon"></i>
+                    <i class="fab fa-twitter cont-icon"></i>
+                </div>
+            </div>
+
+            <div class="side2">
+                <h1>Services</h1>
+                <p>Delivery</p>
+                <p>Pricing</p>
+                <p>Fast food</p>
+                <p>Reserve your spot</p>
+            </div>
+
+            <div class="side3">
+                <h1>Information</h1>
+                <p>Event</p>
+                <p>Contact us</p>
+                <p>Privacy policy</p>
+                <p>Terms of services</p>
+            </div>
+
+            <div class="side4">
+                <h1>Address</h1>
+                <h6>Cairo - Egypt</h6>
+                <h6>Jr Union #999</h6>
+                <h6>999 - 888 - 777</h6>
+                <h6>tastyfood@gmail.com</h6>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
